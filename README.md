@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+# tip-calculator-app-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Content
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built with](#built-with)
+  - [What I learnt](#what-i-learnt)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Available Scripts
+## Overview
+### The challenge
+Users should be able to:
 
-In the project directory, you can run:
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Calculate the correct tip and total cost of the bill per person
 
-### `yarn start`
+### Screenshot
+<img width="606" alt="Screenshot 2021-12-08 at 00 11 53" src="https://user-images.githubusercontent.com/63824455/145283575-66f08393-5293-44bb-8935-8722a5257055.png">
+<img width="1440" alt="Screenshot 2021-12-08 at 00 12 30" src="https://user-images.githubusercontent.com/63824455/145283648-304452cd-103e-4f4f-956b-1ea72a57b404.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Links
+- Live Site URL: https://olabayoji.github.io/tip-calculator-app-react-
+- Solution URL: https://github.com/Olabayoji/tip-calculator-app-react-
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## My Process
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
 
-### `yarn build`
+### What I Learnt
+- How to add google fonts to a react app. 
+- How to build reusable components. 
+- Lifting state up -  this is to ensure there is a  single “source of truth” for any data that changes in a React application.
+- Learnt that setState() does not immediately mutate this.state but creates a pending state transition. Therefore, if you want a function to be executed after state change occur and ensure that this.state returns the new value in setState, you should pass a callback function into the setState method. This can also be done using Async/Await but I do not have a solid grasp of Async/Await so I just passed regular callback functions. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Continued Development 
+- App optimisation by using useEffect to prevent re-rendering child components in which state/props  changed in the parent component and the change in state/props of the parent component has no effect on the child component (This makes sense in my head but I’m not sure I’m passing my thoughts clearly). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+- Olabayoji Oladepo
+  - [LinkedIn](https://www.linkedin.com/in/olabayojioladepo/)   
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tip-calculator-app-react-
+## Acknowledgments
+I would like to thank Mr. Segun Mustafa for creating a platform that has motivated me to create my first non-tutorial React app. I also appreciate Andrew Chidi for such a great Read Me template in which I followed to create mine. 
