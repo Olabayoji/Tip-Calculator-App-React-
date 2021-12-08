@@ -41,6 +41,7 @@ Users should be able to:
 ### What I Learnt
 - How to add google fonts to a react app. 
 - How to build reusable components. 
+- How to deploy React app on GitHub pages
 - Lifting state up -  this is to ensure there is a  single “source of truth” for any data that changes in a React application.
 - Learnt that setState() does not immediately mutate this.state but creates a pending state transition. Therefore, if you want a function to be executed after state change occur and ensure that this.state returns the new value in setState, you should pass a callback function into the setState method. This can also be done using Async/Await but I do not have a solid grasp of Async/Await so I just passed regular callback functions. 
 
