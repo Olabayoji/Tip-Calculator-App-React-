@@ -1,0 +1,42 @@
+
+
+.InputNumber{
+    text-align: left;
+}
+.InputNumber label{
+    display: block;
+    font-weight: bold;
+    color: #5e7a7d;
+}
+
+.InputNumber input{
+    width: 100%;
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    text-align: right;
+    border: 2px solid transparent;
+    background-color: #f4fafa;
+    color: #00494d;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+
+.InputNumber input[type="number"]:active, input[type="number"]:focus{
+    border: 2px solid #26c0ab;
+}
+.InputNumber input:enabled{
+    padding-right: 0.5em; 
+}
+
+.InputNumber .error{
+    border: 2px solid red;
+
+}
+
+.InputNumber img{
+    width: 0.7em;
+    position: relative;
+    bottom: 2em;
+    left: 1em;
+}

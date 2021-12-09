@@ -1,0 +1,15 @@
+input[type="radio"]:checked + label {
+    background:#26c0ab;
+}
+.Input {
+ display: none;
+}
+.Label{
+    padding:0.3em;
+    cursor:pointer;
+    background-color: #00494d;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+} 
